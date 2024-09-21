@@ -11,10 +11,10 @@ import { motion, useScroll } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Abdessamad Tanafaat | Portfolio",
-  description: "Abdessamad Tanafaat is a software engineering student.",
-};
+// export const metadata = {
+//   title: "Abdessamad Tanafaat | Portfolio",
+//   description: "Abdessamad Tanafaat is a software engineering student.",
+// };
 
 export default function RootLayout({
   children,
@@ -26,6 +26,11 @@ export default function RootLayout({
   const { scrollYProgress } = useScroll();
   return (
     <html lang="en" className="!scroll-smooth">
+        <head>
+        <title>Abdessamad Tanafaat | Portfolio</title>
+        <meta name='description' content='Abdessamad Tanafaat is a software engineering student.' />
+      </head>
+
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
