@@ -7,7 +7,7 @@ import ELearning from "@/public/ELearning.jpg";
 import NotifyMessagerie from "@/public/NotifyMessagerie.png";
 import EduPresence from "@/public/EduPresenceApp.png";
 import pharmacyPro from "@/public/pharmacyPro.jpg";
-import FleetManagement from "@/public/fleetManagement.png";
+import FleetManagement from "@/public/FleetManagement.png";
 
 
 export const links = [
