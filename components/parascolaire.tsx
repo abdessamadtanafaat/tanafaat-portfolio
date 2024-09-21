@@ -17,7 +17,7 @@ export default function Parascolaire() {
 
   return (
     <section id="parascolaire" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>Parascolaire </SectionHeading>
+      <SectionHeading>Extracurricular</SectionHeading>
       <VerticalTimeline lineColor="">
         {parascolaireData.map((item, index) => (
           <React.Fragment key={index}>

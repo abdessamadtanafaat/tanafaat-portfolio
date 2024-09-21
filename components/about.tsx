@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-1">
         I am a final-year software engineering student at the {" "}
         <span className="font-medium">National School of Applied Sciences of Agadir (ENSAA)</span>, I decided to pursue my
         passion for programming. I learned{" "}

@@ -4,6 +4,7 @@ import Education from "@/components/education";
 import Experience from "@/components/experience";
 import Intro from "@/components/intro";
 import Parascolaire from "@/components/parascolaire";
+import Projects from "@/components/projects";
 //import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
@@ -13,11 +14,11 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
-      {/* <Projects /> */}
-      <Skills />
       <Experience />
-      <Education/>
+      <Projects />
+      <Skills />
       <Parascolaire />
+      <Education/>
       <Contact />
     </main>
   );

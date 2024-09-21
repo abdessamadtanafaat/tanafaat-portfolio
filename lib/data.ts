@@ -3,6 +3,12 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import ELearning from "@/public/ELearning.jpg";
+import NotifyMessagerie from "@/public/NotifyMessagerie.png";
+import EduPresence from "@/public/EduPresenceApp.png";
+import pharmacyPro from "@/public/pharmacyPro.jpg";
+import FleetManagement from "@/public/fleetManagement.png";
+
 
 export const links = [
   {
@@ -13,25 +19,25 @@ export const links = [
     name: "About",
     hash: "#about",
   },
-  // {
-  //   name: "Projects",
-  //   hash: "#projects",
-  // },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
   {
     name: "Experience",
     hash: "#experience",
   },
   {
-    name: "Education",
-    hash: "#education",
+    name: "Projects",
+    hash: "#projects",
+  },
+  {
+    name: "Skills",
+    hash: "#skills",
   },
   {
     name: "Parascolaire",
     hash: "#parascolaire",
+  },
+  {
+    name: "Education",
+    hash: "#education",
   },
   {
     name: "Contact",
@@ -41,22 +47,23 @@ export const links = [
 
 export const experiencesData = [
 
-  // {
-  //   title: "Game Developer intern",
-  //   location: "Techpal. Casablanca, Morocco",
-  //   description:
-  //     " I developed an educational game using Unity to train employees on safety rules, personal protective equipment, and emergency procedures. I designing scenes, game levels and interactive mini-games en 2D and 3D.",
-  //   icon: React.createElement('img', { src: 'https://i.ibb.co/YtXY3WT/output-onlinepngtools-6-modified.pngg', alt: 'Techpal' }),
-  //   date: "Jul 2024 – Sep 2024",
-  // },
   {
-    title: "Web Development internship",
-    location: "Major Media. Agadir, Morocco",
+    title: "Internship",
+    location: "Techpal. Casablanca, Morocco",
     description:
-      "Create a dashboard for administration and secure customer feedback management applications.",
-    icon: React.createElement('img', { src: 'https://i.ibb.co/NpTp8q3/images-modified.png', alt: 'MajorMedia' }),
-    date: "Mar 2024 – Jun 2024",
+    "I developed an educational game using Unity to train employees on safety rules, personal protective equipment, and emergency procedures, designing scenes, game levels, and interactive mini-games in both 2D and 3D. The project included writing technical specifications, developing a quiz module with various formats, and creating a character selection module along with personal protective equipment options. The technical environment utilized C# and the Unity Engine.",
+    icon: React.createElement('img', { src: 'https://i.ibb.co/YtXY3WT/output-onlinepngtools-6-modified.pngg', alt: 'Techpal' }),
+    date: "Jul 2024 – Sep 2024",
   },
+  {
+    title: "Internship",
+    location: "Major Media. Agadir, Morocco",
+    description: 
+    "The project focuses on creating a back-office for customer satisfaction survey applications, utilizing Agile methodology (SCRUM) for project management. It includes writing functional and technical specifications, designing the application with UML diagrams, developing modules for role, privilege, and account management, and analyzing user statistics. Additionally, it involves managing owners and their businesses, deploying the application on Docker, and operates within a technical environment that includes React v17, Java, Spring Boot, Spring Security, MySQL, HTML5, Tailwind CSS, JavaScript, Postman, Trello, Astah UML, and Docker.",
+    icon: React.createElement('img', { src: 'https://i.ibb.co/NpTp8q3/images-modified.png', alt: 'MajorMedia' }),
+    date: "Feb 2024 – Jul 2024",
+  },
+  
   {
     title: "Graphic designer",
     location: "Agence Fonty Media. Agadir, Morocco",
@@ -66,12 +73,12 @@ export const experiencesData = [
       date: "Oct 2023 – Dec 2023",
   },
   {
-    title: "Web Development internship",
+    title: "Internship",
     location: "ANCFCC. Rabat, Morocco",
     description:
-      "I designed and developed a web application for recruitment request management, enabling users to submit recruitment requests through the platform. My stack includes Angular, ASP.NET, and MySQL Server.",
+      "I designed and developed a web application for managing recruitment requests. This project included writing functional and technical specifications, modeling and designing the application with UML, implementing an authentication and authorization system, and developing modules for managing applications and providing overall statistics on received applications. The technical environment comprised .NET Core, Angular, C#, SQL Server, and Visual Studio.",
       icon: React.createElement('img', { src: 'https://i.ibb.co/MfPZ9Cq/output-onlinepngtools-5-modified.png', alt: 'ANCFCC Rabat' }),
-      date: "Jul 2023 – Sep 2023",
+      date: "Jul 2023 – Aug 2023",
   },
 
 ] as const;
@@ -79,10 +86,10 @@ export const experiencesData = [
 export const educationData = [
 
   {
-    title: "Software Engineer",
+    title: "Software Engineer Student",
     location: "National School of Applied Sciences. Agadir, Morocco",
     description:
-    "Formation approfondie en informatique incluant l'analyse et la conception de bases de données, la programmation orientée objet, les langages de programmation, les réseaux informatiques, la programmation web, l'architecture JEE et DotNet, la communication technique, l'administration des bases de données, la technologie XML, le développement mobile, UML2, la sécurité des réseaux, l'intelligence artificielle et le cloud computing.",
+    "In-depth training in computer science, including database analysis and design, object-oriented programming, programming languages, computer networks, web programming, JEE and .NET architecture, technical communication, database administration, XML technology, mobile development, UML2, network security, artificial intelligence, and cloud computing.",
     icon: React.createElement('img', { src: 'https://i.ibb.co/d4ZVPKK/ensa-modified.png', alt: 'ensa agadir' }),
     date: "Oct 2022 - Jun 2025",
   },
@@ -139,37 +146,54 @@ export const parascolaireData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Notify-Messaging (In Progress)",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    "I worked on the development of a web application for a social network.",
+    tags: [".NET Core", "C#", "React", "MongoDB", "Tailwind", "TypeScript","Swagger","Visual Studio Code","Postman"],
+    imageUrl: NotifyMessagerie,
   },
   {
-    title: "rmtDev",
+    title: "EduPresence",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    "Development of a mobile application for managing student attendance.",
+    tags: ["Java", "Android Studio", "SQLite"],
+    imageUrl: EduPresence,
   },
   {
-    title: "Word Analytics",
+    title: "FleetManager",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    "Backend implementation of a vehicle fleet management system.",
+    tags: ["Java", "Spring Boot", "Spring Security", "MySQL","Swagger","RedisInsight","Postman","IntelliJ IDEA","Visual Studio Code"],
+    imageUrl: FleetManagement,
   },
+  {
+    title: "E-LearningApp",
+    description:
+    "Creation of an e-learning platform that includes quizzes and certificates.",
+    tags: ["Next.js", ".NET Core", "C#", "MySQL","TypeScript","Visual Studio Code","Swagger","Postman","Microsoft Visual Studio"],
+    imageUrl: ELearning,
+  },
+  {
+    title: "PharmacyPro",
+    description:
+    "Development of a web application for pharmacy management.",
+    tags: ["Java", "HTML5", "CSS", "MySQL","PHPMyAdmin"],
+    imageUrl: pharmacyPro,
+  },
+
 ] as const;
 
 export const skillsData = [
-  "HTML",
+  "HTML 5",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Angular",
-  "ASP.NET",
+  ".NET Core",
   "Java",
+  "C#",
+  "VB.NET",
   "Spring",
   "Next.js",
   "Node.js",
@@ -179,7 +203,19 @@ export const skillsData = [
   "SQL Server",
   "MySQL",
   "MongoDB",
-  "Unity",
+  "Unity Engine",
   "Adobe Photoshop",
   "Adobe Illustrator",
+  "Android Studio",
+  "SQLlite",
+  "Oracle",
+  "C", 
+  "C++",
+  "Microsoft Visual Studio",
+  "Visual Studio Code",
+  "Eclipse",
+  "Docker",
+  "IntelliJ",
+  "JetBrains",
+
 ] as const;
